@@ -1,8 +1,7 @@
 [package]
 name = "nil"
-version = "0.1.0"
+description = "🦀🚀🔥 A blazingly fast and memory-efficient implementation of `if err != nil` 🔥🚀🦀"
+version = "0.0.999999"
+license = "BSD-3-Clause"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
+publish = false
