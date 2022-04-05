@@ -2,11 +2,12 @@
 
 use std::error::Error;
 
+/// Re-export of all items in this crate (except `Nil`, because it isn't a real type).
 pub mod prelude {
     pub use crate::{error, nil};
 }
 
-/// An alias for Box<dyn Error> that even the noobiest of googlers can understand.
+/// An alias for `Box<dyn Error>` that even Googlers can understand.
 #[allow(non_camel_case_types)]
 pub type error = Box<dyn Error>;
 
